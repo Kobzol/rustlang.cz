@@ -1,0 +1,13 @@
+- name: "Rust Prague meetup #1 live-stream recording"
+  speakers:
+    - Pavel Šimerda
+    - Jakub Beránek
+  venue: "Rust Prague meetup #1"
+  date: 17. 1. 2024
+  link: https://www.youtube.com/watch?v=d9_ymbFnzM4
+- name: "Rust - programovací jazyk pro klidný spánek"
+  speakers:
+    - Jakub Beránek
+  venue: TechMeetup Ostrava 2023
+  date: 3. 11. 2023
+  link: https://www.youtube.com/watch?v=bGVYof8WBSI

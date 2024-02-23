@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Czech Rust community homepage</title>
+  <link rel="stylesheet" href="css/gh-fork-ribbon.min.css"/>
+  <style>
+      .github-fork-ribbon:before {
+          background-color: #333333;
+      }
+  </style>
+</head>
+
+<body>
+<a class="github-fork-ribbon"
+   href="{{ config.extra.github_url }}"
+   target="_blank"
+   data-ribbon="Fork me on GitHub"
+   title="Fork me on GitHub">Fork me on GitHub</a>
+
+<section class="section">
+  <div class="container">
+    {% block content %}{% endblock %}
+  </div>
+</section>
+<footer>
+  <div>
+    Created by <a href="https://github.com/kobzol">@kobzol</a>.
+  </div>
+  <div>
+    Domain <code>rustlang.cz</code> kindly provided by <a href="https://ondrejsika.com/">https://ondrejsika.com/</a>.
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,4 @@
+- name: IT4Innovations National Supercomputing Center
+  web: https://www.it4i.cz/
+  projects:
+    - https://github.com/It4innovations/hyperqueue

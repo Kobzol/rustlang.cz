@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>Rust Czech community index</h1>
+<div>
+  This page serves as an index of events, communities, companies, jobs, recordings, etc. related to the Rust language in the Czech Republic.
+  Contributions with are <a href="{{ config.extra.github_url }}">welcome</a>!
+</div>
+
+{% set communities = load_data(path="data/communities.yaml") %}
+
+<div>
+  <h2>Communities</h2>
+  <ul>
+  {% for community in communities %}
+    <li><a href="{{ community.link }}" target="_blank">{{ community.name }} ({{ community.kind }})</a></li>
+  {% endfor %}
+  </ul>
+</div>
+
+{% set events = load_data(path="data/events.yaml") %}
+
+<div>
+  <h2>Events</h2>
+  <ul>
+    {% for event in events %}
+    <li><a href="{{ event.link }}" target="_blank">{{ event.name }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+
+{% set recordings = load_data(path="data/recordings.yaml") %}
+
+<div>
+  <h2>Recordings</h2>
+  <ul>
+    {% for recording in recordings %}
+    <li><a href="{{ recording.link }}" target="_blank">{{ recording.name }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+
+{% set companies = load_data(path="data/companies.yaml") %}
+
+<div>
+  <h2>Companies</h2>
+  <ul>
+    {% for company in companies %}
+    <li><a href="{{ company.web }}" target="_blank">{{ company.name }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+
+{% endblock content %}
