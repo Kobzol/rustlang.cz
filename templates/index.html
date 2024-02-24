@@ -41,6 +41,28 @@
   </ul>
 </div>
 
+{% set education = load_data(path="data/education.yaml") %}
+
+<div>
+  <h2>Education</h2>
+  <ul>
+    {% for course in education %}
+    <li><a href="{{ course.link }}" target="_blank">{{ course.name }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+
+{% set trainings = load_data(path="data/trainings.yaml") %}
+
+<div>
+  <h2>Trainings</h2>
+  <ul>
+    {% for training in trainings %}
+    <li><a href="{{ training.link }}" target="_blank">{{ training.name }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+
 {% set companies = load_data(path="data/companies.yaml") %}
 
 <div>

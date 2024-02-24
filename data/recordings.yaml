@@ -11,3 +11,8 @@
   venue: TechMeetup Ostrava 2023
   date: 3. 11. 2023
   link: https://www.youtube.com/watch?v=bGVYof8WBSI
+- name: Rust seminar lesson recordings
+  link: https://www.youtube.com/playlist?list=PLgoUJJFtqE9APcuG-kEYtjktk2ZHec5Rc
+  speakers:
+    - Jakub Beránek
+  venue: VSB-TUO FEI
