@@ -33,10 +33,11 @@ jobs:
           tar -xvf zola.tar.gz
       - name: Install Rust
         uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
       - name: Build RSS
         run: |
           cd rss
-          cargo run --data-path ../data ../static/feed.xml
+          cargo run -- --data-path ../data ../static/feed.xml
       - name: Build website
         run: ./zola build
       - name: Upload artifact
