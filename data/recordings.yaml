@@ -1,18 +1,18 @@
-- name: "Rust Prague meetup #1 live-stream recording"
+- name: "Rust Prague meetup #1"
   speakers:
     - Pavel Šimerda
     - Jakub Beránek
-  venue: "Rust Prague meetup #1"
-  date: 17. 1. 2024
+  date: "2024-01-17"
   link: https://www.youtube.com/watch?v=d9_ymbFnzM4
+  kind: Live-stream recording
 - name: "Rust - programovací jazyk pro klidný spánek"
   speakers:
     - Jakub Beránek
-  venue: TechMeetup Ostrava 2023
-  date: 3. 11. 2023
+  date: "2023-03-11"
   link: https://www.youtube.com/watch?v=bGVYof8WBSI
-- name: Rust seminar lesson recordings
+  kind: talk
+- name: Rust FEI course
   link: https://www.youtube.com/playlist?list=PLgoUJJFtqE9APcuG-kEYtjktk2ZHec5Rc
   speakers:
     - Jakub Beránek
-  venue: VSB-TUO FEI
+  kind: Live-stream recording

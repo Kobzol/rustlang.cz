@@ -3,16 +3,17 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
   <title>Czech Rust community homepage</title>
 
-  <link rel="alternate" type="application/atom+xml" title="Czech Rust language events" href="feed.xml" />
+  <link rel="alternate" type="application/atom+xml" title="Czech Rust language events"
+        href="{{ get_url(path='/feed.xml') }}"/>
+  <link rel="icon" href="favicon.ico" type="image/x-icon"/>
 
-  <link rel="stylesheet" href="css/gh-fork-ribbon.min.css"/>
-  <style>
-      .github-fork-ribbon:before {
-          background-color: #333333;
-      }
-  </style>
+  <link rel="stylesheet" href="{{ get_url(path='style/bootstrap.min.css') }}"/>
+  <link rel="stylesheet" href="{{ get_url(path='style/gh-fork-ribbon.min.css') }}"/>
+  <link rel="stylesheet" href="{{ get_url(path='style/global.css') }}"/>
 </head>
 
 <body>
@@ -22,19 +23,31 @@
    data-ribbon="Fork me on GitHub"
    title="Fork me on GitHub">Fork me on GitHub</a>
 
-<section class="section">
-  <div class="container">
+<div>
+  <nav class="navbar bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="{{ get_url(path='img/ferris-cz.png') }}" alt="Rust Czech community logo" height="64"/>
+        Rust Czech community index
+      </a>
+    </div>
+  </nav>
+  <section class="container">
     {% block content %}{% endblock %}
-  </div>
-</section>
-<footer>
-  <div>
-    Created by <a href="https://github.com/kobzol">@kobzol</a>.
-  </div>
-  <div>
-    Domain <code>rustlang.cz</code> kindly provided by <a href="https://ondrejsika.com/">https://ondrejsika.com/</a>.
-  </div>
-  <a href="feed.xml">RSS</a>
-</footer>
+  </section>
+  <footer class="container fixed-bottom d-flex flex-wrap justify-content-center bg-body-tertiary p-3">
+    <div>
+      <a href="{{ get_url(path='/feed.xml') }}">RSS</a>
+    </div>
+    <span class="mx-2">|</span>
+    <div>Created by <a href="https://github.com/kobzol">@kobzol</a></div>
+    <span class="mx-2">|</span>
+    <div>
+      Domain <code>rustlang.cz</code> kindly provided by <a href="https://ondrejsika.com/">Ondřej Šika</a>.
+    </div>
+  </footer>
+</div>
+
+<script type="text/javascript" src="{{ get_url(path='script/bootstrap.min.js') }}"></script>
 </body>
 </html>
