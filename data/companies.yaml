@@ -1,5 +1,32 @@
 - name: IT4Innovations National Supercomputing Center
-  link: https://www.it4i.cz/
-  projects:
+  link: https://www.it4i.cz
+  entries:
     - name: HyperQueue
       link: https://github.com/It4innovations/hyperqueue
+- name: Rockwell Automation
+  link: https://www.rockwellautomation.com/en-cz.html
+  entries:
+    - name: Rust job offer
+      link: https://www.ikariera.cz/cz/offers/detail/1053
+- name: Espressif Systems
+  link: https://www.espressif.com
+  entries:
+    - name: ESP32 Rust integration
+      link: https://github.com/espressif/rust-esp32-example
+- name: Braiins
+  link: https://braiins.com
+  entries:
+    - name: Rust job offer
+      link: https://jobs.ashbyhq.com/Braiins/84272d39-b8cf-4457-909c-b35b9c0202a2
+- name: Satoshi Labs
+  link: https://satoshilabs.com
+  entries:
+    - name: Trezor Firmware
+      link: https://github.com/trezor/trezor-firmware
+- name: Hardwario
+  link: https://www.hardwario.com
+- name: Microsoft
+  link: https://www.microsoft.com/cs-cz
+  entries:
+    - name: Rust job offer
+      link: https://jobs.careers.microsoft.com/global/en/job/1681659

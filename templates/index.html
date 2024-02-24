@@ -105,9 +105,9 @@
             <li class="list-group-item list-group-item-action">
               <a href="{{ company.link }}" target="_blank">{{ company.name }}</a>
               <ul class="list-group">
-                {% for project in company.projects %}
-                <a href="{{ project.link }}" target="_blank" class="list-group-item list-group-item-action">
-                  {{ project.name }}
+                {% for entry in company.entries | default(value=[]) %}
+                <a href="{{ entry.link }}" target="_blank" class="list-group-item list-group-item-action">
+                  {{ entry.name }}
                 </a>
                 {% endfor %}
               </ul>
