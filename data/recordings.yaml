@@ -3,16 +3,19 @@
     - Pavel Šimerda
     - Jakub Beránek
   date: "2024-01-17"
+  published: "2024-02-15T18:00:00+01:00"
   link: https://www.youtube.com/watch?v=d9_ymbFnzM4
   kind: Live-stream recording
 - name: "Rust - programovací jazyk pro klidný spánek"
   speakers:
     - Jakub Beránek
   date: "2023-03-11"
+  published: "2024-02-15T18:00:00+01:00"
   link: https://www.youtube.com/watch?v=bGVYof8WBSI
   kind: talk
 - name: Rust FEI course
   link: https://www.youtube.com/playlist?list=PLgoUJJFtqE9APcuG-kEYtjktk2ZHec5Rc
+  published: "2024-02-15T18:00:00+01:00"
   speakers:
     - Jakub Beránek
   kind: Live-stream recording

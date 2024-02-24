@@ -1,12 +1,15 @@
 - name: "Introduction and Rust in production"
   link: https://www.meetup.com/rust-czech-republic/events/298605120/
   date: "2024-02-15T18:00:00+01:00"
+  published: "2024-02-15T18:00:00+01:00"
   city: Prague
 - name: "Rust Beer #13 - 2024 Restart"
   link: https://www.facebook.com/events/s/rust-beer-13-2024-restart/2838239042994067
   date: "2024-02-07T19:00:00+01:00"
+  published: "2024-02-15T18:00:00+01:00"
   city: Brno
 - name: Rust Meetup Reloaded 2024
   link: https://www.meetup.com/rust-prague/events/298005196/
   date: "2024-01-17T18:00:00+01:00"
+  published: "2024-02-15T18:00:00+01:00"
   city: Prague
