@@ -31,6 +31,12 @@ jobs:
         run: |
           wget -q -O zola.tar.gz "https://github.com/getzola/zola/releases/download/v0.18.0/zola-v0.18.0-x86_64-unknown-linux-gnu.tar.gz"
           tar -xvf zola.tar.gz
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@stable
+      - name: Build RSS
+        run: |
+          cd rss
+          cargo run --data-path ../data ../static/feed.xml
       - name: Build website
         run: ./zola build
       - name: Upload artifact

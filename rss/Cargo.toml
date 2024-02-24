@@ -1,0 +1,12 @@
+[package]
+name = "rss"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+atom_syndication = "0.12.2"
+anyhow = "1.0.80"
+chrono = "0.4.34"
+clap = { version = "4.5.1", features = ["derive"] }
