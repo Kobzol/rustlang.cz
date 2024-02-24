@@ -23,7 +23,7 @@
    data-ribbon="Fork me on GitHub"
    title="Fork me on GitHub">Fork me on GitHub</a>
 
-<div>
+<div class="wrapper">
   <nav class="navbar bg-body-tertiary">
     <div class="container">
       <a class="navbar-brand" href="#">
@@ -32,18 +32,20 @@
       </a>
     </div>
   </nav>
-  <section class="container">
+  <section class="container mb-2">
     {% block content %}{% endblock %}
   </section>
-  <footer class="container fixed-bottom d-flex flex-wrap justify-content-center bg-body-tertiary p-3">
-    <div>
-      <a href="{{ get_url(path='/feed.xml') }}">RSS</a>
-    </div>
-    <span class="mx-2">|</span>
-    <div>Created by <a href="https://github.com/kobzol">@kobzol</a></div>
-    <span class="mx-2">|</span>
-    <div>
-      Domain <code>rustlang.cz</code> kindly provided by <a href="https://ondrejsika.com/">Ondřej Šika</a>.
+  <footer class="bg-body-tertiary p-3 mt-auto">
+    <div class="container d-flex flex-wrap justify-content-center">
+      <div>
+        <a href="{{ get_url(path='/feed.xml') }}">RSS</a>
+      </div>
+      <span class="mx-2">|</span>
+      <div>Created by <a href="https://github.com/kobzol">@kobzol</a></div>
+      <span class="mx-2">|</span>
+      <div>
+        Domain <code>rustlang.cz</code> kindly provided by <a href="https://ondrejsika.com/">Ondřej Šika</a>.
+      </div>
     </div>
   </footer>
 </div>
