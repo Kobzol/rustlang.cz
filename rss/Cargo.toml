@@ -8,5 +8,7 @@ edition = "2021"
 [dependencies]
 atom_syndication = "0.12.2"
 anyhow = "1.0.80"
-chrono = "0.4.34"
+chrono = { version = "0.4.34" , features = ["serde"]}
 clap = { version = "4.5.1", features = ["derive"] }
+serde = { version = "1.0.197", features = ["derive"] }
+serde_yaml = "0.9.32"

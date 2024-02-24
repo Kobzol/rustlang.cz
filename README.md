@@ -15,4 +15,9 @@ Note that all added content should be relevant to Rust usage in the Czech Republ
 
 ## Build instructions
 1) Install [Zola](https://www.getzola.org/documentation/getting-started/installation/)
-2) Run `zola serve` or `zola build`
+2) (Optional) Build RSS feed
+    ```bash
+    $ cd rss
+    $ cargo run -- --data-path ../data ../static/feed.xml 
+    ```
+3) Run `zola serve` or `zola build`
