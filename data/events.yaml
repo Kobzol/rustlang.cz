@@ -1,3 +1,8 @@
+- name: "Rust Meetup @ Charles University"
+  link: https://www.meetup.com/rust-prague/events/299515169/
+  date: "2024-03-19T18:00:00+01:00"
+  published: "2024-03-01T09:00:00+01:00"
+  city: Prague
 - name: "Introduction and Rust in production"
   link: https://www.meetup.com/rust-czech-republic/events/298605120/
   date: "2024-02-15T18:00:00+01:00"
