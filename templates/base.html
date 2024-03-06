@@ -3,9 +3,16 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Index of events and links related to the Rust programming language in the Czech Republic.">
 
-  <title>Czech Rust community homepage</title>
+  <meta property="og:title" content="Czech Rust community index" />
+  <meta property="og:title" content="Index of events and links related to the Rust programming language in the Czech Republic." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://rustlang.cz" />
+  <meta property="og:image" content="https://rustlang.cz/img/ferris-cz.png" />
+
+  <title>Czech Rust community index</title>
 
   <link rel="alternate" type="application/atom+xml" title="Czech Rust language events"
         href="{{ get_url(path='/feed.xml') }}"/>
@@ -25,12 +32,12 @@
 
 <div class="wrapper">
   <nav class="navbar bg-body-tertiary">
-    <div class="container">
+    <h1 class="container">
       <a class="navbar-brand" href="#">
         <img src="{{ get_url(path='img/ferris-cz.png') }}" alt="Rust Czech community logo" height="64"/>
         Rust Czech community index
       </a>
-    </div>
+    </h1>
   </nav>
   <section class="container mb-2">
     {% block content %}{% endblock %}
