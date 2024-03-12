@@ -3,6 +3,11 @@
   date: "2024-03-19T18:00:00+01:00"
   published: "2024-03-01T09:00:00+01:00"
   city: Prague
+- name: "Rust Beer #14 - March Edition"
+  link: https://www.facebook.com/events/680605727397287
+  date: "2024-03-13T19:00:00+01:00"
+  published: "2024-03-12T18:47:00+01:00"
+  city: Brno
 - name: "Introduction and Rust in production"
   link: https://www.meetup.com/rust-czech-republic/events/298605120/
   date: "2024-02-15T18:00:00+01:00"
