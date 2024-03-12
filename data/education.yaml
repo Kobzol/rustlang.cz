@@ -1,6 +1,6 @@
-- name: Rust course
+- name: Programování v Rustu
   kind: VSB-TUO FEI @ Ostrava
-  link: https://github.com/Kobzol/rust-course-fei
+  link: "https://edison.sso.vsb.cz/cz.vsb.edison.edu.study.prepare.web/SubjectVersion.faces?version=460-4157/01&subjectBlockAssignmentId=539402&studyFormId=1&studyPlanId=25878&locale=cs&back=true"
 - name: Programování v jazyce Rust
   kind: MUNI @ Brno
   link: https://is.muni.cz/predmet/fi/podzim2023/PV281
@@ -10,3 +10,6 @@
 - name: Advanced Programming in Rust
   kind: MFF CUNI @ Prague
   link: https://d3s.mff.cuni.cz/teaching/nprg074/
+- name: Rust course
+  kind: VSB-TUO FEI @ Ostrava
+  link: https://github.com/Kobzol/rust-course-fei
