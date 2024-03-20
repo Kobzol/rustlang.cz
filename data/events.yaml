@@ -1,3 +1,8 @@
+- name: "Rust TechMeetup Ostrava"
+  link: https://www.meetup.com/techmeetupostrava/events/299912212/
+  date: "2024-04-17T17:30:00+02:00"
+  published: "2024-03-20T21:30:00+01:00"
+  city: Ostrava
 - name: "Rust Meetup @ Charles University"
   link: https://www.meetup.com/rust-prague/events/299515169/
   date: "2024-03-19T18:00:00+01:00"
