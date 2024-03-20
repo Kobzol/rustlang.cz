@@ -1,3 +1,12 @@
+- name: "Rust Prague meetup #2"
+  speakers:
+    - Jakub Beránek
+    - Martin Kolařík
+    - Victor Ciura
+  date: "2024-03-19"
+  published: "2024-03-20T09:00:00+01:00"
+  kind: Stream recording
+  link: https://www.youtube.com/watch?v=I6SJ9Kw4jAI
 - name: "Rust Prague meetup #1"
   speakers:
     - Pavel Šimerda
@@ -5,7 +14,7 @@
   date: "2024-01-17"
   published: "2024-02-15T18:00:00+01:00"
   link: https://www.youtube.com/watch?v=d9_ymbFnzM4
-  kind: Live-stream recording
+  kind: Stream recording
 - name: "Rust - programovací jazyk pro klidný spánek"
   speakers:
     - Jakub Beránek
@@ -18,4 +27,4 @@
   published: "2024-02-15T18:00:00+01:00"
   speakers:
     - Jakub Beránek
-  kind: Live-stream recording
+  kind: Stream recording
