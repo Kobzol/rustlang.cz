@@ -35,3 +35,8 @@
   entries:
     - name: Career site
       link: https://www.cdn77.jobs/#tymy
+- name: Edhouse
+  link: https://www.edhouse.cz/
+  entries:
+    - name: Rust job offer (in Moravia!)
+      link: https://www.edhouse.cz/position/software-developer-rust
