@@ -1,3 +1,12 @@
+- name: Rust TechMeetup Ostrava
+  link: https://www.youtube.com/watch?v=YodMJMP2dfA&ab_channel=TechMeetupOstrava
+  date: "2024-04-17"
+  published: "2024-04-17T23:20:00+02:00"
+  speakers:
+    - Jakub Beránek
+    - Ada Böhm
+    - Juraj Michálek
+  kind: Stream recording
 - name: "Rust Prague meetup #2"
   speakers:
     - Jakub Beránek
