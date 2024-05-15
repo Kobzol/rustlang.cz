@@ -40,3 +40,8 @@
   entries:
     - name: Rust job offer (in Moravia!)
       link: https://www.edhouse.cz/position/software-developer-rust
+- name: Luxonis
+  link: https://www.luxonis.com/
+  entries:
+    - name: Rust Developer
+      link: https://www.luxonis.com/about-us#rust-developer
