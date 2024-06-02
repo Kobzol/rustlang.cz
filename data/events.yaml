@@ -1,3 +1,8 @@
+- name: "Prague Rust Meetup (July 2024)"
+  link: https://www.meetup.com/rust-prague/events/301227195/
+  date: "2024-07-11T18:00:00+02:00"
+  published: "2024-06-02T09:30:00+02:00"
+  city: Prague
 - name: "Rust Meetup @ Charles University"
   link: https://www.meetup.com/rust-prague/events/300566374/
   date: "2024-05-14T18:00:00+02:00"
