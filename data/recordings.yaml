@@ -1,3 +1,11 @@
+- name: "Rust Prague meetup #4"
+  speakers:
+    - Lukáš Franěk
+    - Kateřina Churanová
+  date: "2024-07-11"
+  published: "2024-07-12T08:30:00+02:00"
+  kind: Stream recording
+  link: https://www.youtube.com/watch?v=VZmnQgS3Dnk
 - name: "Rust Prague meetup #3"
   speakers:
     - Jakub Beránek
