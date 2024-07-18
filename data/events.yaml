@@ -1,3 +1,8 @@
+- name: "Rust Moravia Meetup (September 2024)"
+  link: https://www.meetup.com/rust-moravia/events/301360936/
+  date: "2024-09-18T17:30:00+02:00"
+  published: "2024-07-18T16:30:00+02:00"
+  city: Olomouc
 - name: "Prague Rust Meetup (July 2024)"
   link: https://www.meetup.com/rust-prague/events/301227195/
   date: "2024-07-11T18:00:00+02:00"
