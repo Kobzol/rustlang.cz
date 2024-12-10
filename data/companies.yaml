@@ -45,3 +45,8 @@
   entries:
     - name: Rust Developer
       link: https://www.luxonis.com/about-us#rust-developer
+- name: Webout
+  link: https://www.webout.me/
+  entries:
+    - name: Rust & TypeScript job offer
+      link: https://www.startupjobs.cz/nabidka/84627/senior-full-stack-vyvojar-rust-typescript
