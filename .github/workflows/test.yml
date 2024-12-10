@@ -20,7 +20,7 @@ jobs:
           cargo run -- --data-path ../data ../static/feed.xml
       - name: Install Zola
         run: |
-          wget -q -O zola.tar.gz "https://github.com/getzola/zola/releases/download/v0.18.0/zola-v0.18.0-x86_64-unknown-linux-gnu.tar.gz"
+          wget -q -O zola.tar.gz "https://github.com/getzola/zola/releases/download/v0.19.2/zola-v0.19.2-x86_64-unknown-linux-gnu.tar.gz"
           tar -xvf zola.tar.gz
       - name: Build website
         run: ./zola build
