@@ -1,3 +1,12 @@
+- name: "Rust Prague meetup #8"
+  speakers:
+    - Jana Machutová
+    - Baudouin Bóďa Feildel
+    - Lukáš Hozda
+  date: "2025-03-20"
+  published: "2025-03-21T20:00:00+01:00"
+  kind: Stream recording
+  link: https://www.youtube.com/watch?v=fgWKa7WW3h4
 - name: "Rust Prague meetup #7"
   speakers:
     - David Marek Manca
