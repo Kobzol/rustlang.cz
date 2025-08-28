@@ -1,3 +1,8 @@
+- name: "4. Rust Moravia Meetup (In the capital!)"
+  link: https://www.meetup.com/rust-moravia/events/310743282
+  date: "2025-10-01T18:00:00+02:00"
+  published: "2025-08-28T20:00:00+02:00"
+  city: Prague
 - name: "Prague Rust Meetup (March 2025)"
   link: https://www.meetup.com/rust-prague/events/306512157
   date: "2025-03-20T18:00:00+01:00"
