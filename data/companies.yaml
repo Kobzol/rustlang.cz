@@ -28,8 +28,8 @@
 - name: Microsoft
   link: https://www.microsoft.com/cs-cz
   entries:
-    - name: Rust job offer
-      link: https://jobs.careers.microsoft.com/global/en/job/1681659
+    - name: Rust job offers
+      link: https://jobs.careers.microsoft.com/global/en/search?q=Rust&lc=Czech%20Republic&l=en_us&pg=1&pgSz=20&o=Relevance&flt=true
 - name: CDN77
   link: https://www.cdn77.com/
   entries:
