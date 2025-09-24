@@ -16,8 +16,8 @@
 - name: Braiins
   link: https://braiins.com
   entries:
-    - name: Rust job offer
-      link: https://jobs.ashbyhq.com/Braiins/84272d39-b8cf-4457-909c-b35b9c0202a2
+    - name: Careers
+      link: https://braiins.com/careers
 - name: Satoshi Labs
   link: https://satoshilabs.com
   entries:
@@ -28,8 +28,8 @@
 - name: Microsoft
   link: https://www.microsoft.com/cs-cz
   entries:
-    - name: Rust job offer
-      link: https://jobs.careers.microsoft.com/global/en/job/1681659
+    - name: Rust job offers
+      link: https://jobs.careers.microsoft.com/global/en/search?q=Rust&lc=Czech%20Republic&l=en_us&pg=1&pgSz=20&o=Relevance&flt=true
 - name: CDN77
   link: https://www.cdn77.com/
   entries:
@@ -39,7 +39,7 @@
   link: https://www.edhouse.cz/
   entries:
     - name: Rust job offer (in Moravia!)
-      link: https://www.edhouse.cz/position/software-developer-rust
+      link: https://www.edhouse.eu/cz/kariera/detail/software-developer-rust-s-praxi/
 - name: Luxonis
   link: https://www.luxonis.com/
   entries:
@@ -48,5 +48,5 @@
 - name: Webout
   link: https://www.webout.me/
   entries:
-    - name: Rust & TypeScript job offer
-      link: https://www.startupjobs.cz/nabidka/84627/senior-full-stack-vyvojar-rust-typescript
+    - name: StartupJobs
+      link: https://www.startupjobs.cz/startup/webout-you-s-r-o-2
