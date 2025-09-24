@@ -57,3 +57,8 @@
       link: https://ttc-marconi.com/kariera/pozice/rust-vyvojar-ka-pro-ios-aplikaci/
     - name: Rust on Android
       link: https://ttc-marconi.com/kariera/pozice/rust-vyvojar-ka-pro-android-aplikaci/
+- name: SUSE
+  link: https://www.suse.com/
+  entries:
+    - name: Agama Server
+      link: https://github.com/agama-project/agama/tree/master/rust
