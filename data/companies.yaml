@@ -50,3 +50,15 @@
   entries:
     - name: StartupJobs
       link: https://www.startupjobs.cz/startup/webout-you-s-r-o-2
+- name: TTC MARCONI
+  link: https://ttc-marconi.com/
+  entries:
+    - name: Rust on iOS
+      link: https://ttc-marconi.com/kariera/pozice/rust-vyvojar-ka-pro-ios-aplikaci/
+    - name: Rust on Android
+      link: https://ttc-marconi.com/kariera/pozice/rust-vyvojar-ka-pro-android-aplikaci/
+- name: SUSE
+  link: https://www.suse.com/
+  entries:
+    - name: Agama Server
+      link: https://github.com/agama-project/agama/tree/master/rust
