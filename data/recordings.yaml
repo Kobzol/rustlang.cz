@@ -1,3 +1,10 @@
+- name: "Rust Pargue meetup October 2025"
+  speakers:
+    - Arto Gahr
+    - Lukáš "Chleba" Franěk
+  date: "2025-10-30"
+  kind: Stream recording
+  link: https://www.youtube.com/watch?v=GOhd8IyEoyc
 - name: "Rust Prague meetup #8"
   speakers:
     - Jana Machutová
