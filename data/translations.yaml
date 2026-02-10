@@ -79,3 +79,12 @@ footer_created_by:
 footer_domain:
   en: "Domain <code>rustlang.cz</code> kindly provided by"
   cs: "Doménu <code>rustlang.cz</code> laskavě poskytl"
+kind_stream_recording:
+  en: "Stream recording"
+  cs: "Záznam akce"
+kind_meetup_group:
+  en: "Meetup group"
+  cs: "Meetup skupina"
+kind_talk:
+  en: "Talk"
+  cs: "Přednáška"
