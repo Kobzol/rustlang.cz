@@ -1,0 +1,81 @@
+site_title:
+  en: "Czech Rust community index"
+  cs: "Česká Rust komunita"
+site_description:
+  en: "Index of events and links related to the Rust programming language in the Czech Republic."
+  cs: "Přehled událostí a odkazů souvisejících s programovacím jazykem Rust v České republice."
+feed_title:
+  en: "Czech Rust language events"
+  cs: "Rust události v Česku"
+navbar_brand:
+  en: "Rust Czech community index"
+  cs: "Česká Rust komunita"
+logo_alt:
+  en: "Rust Czech community logo"
+  cs: "Logo české Rust komunity"
+fork_me:
+  en: "Fork me on GitHub"
+  cs: "Fork me on GitHub"
+intro_text:
+  en: "This page serves as an index of events, communities, companies, jobs, recordings, etc. related to the Rust language in the Czech Republic."
+  cs: "Tato stránka slouží jako přehled událostí, komunit, firem, pracovních nabídek, záznamů apod. souvisejících s jazykem Rust v České republice."
+intro_contributions:
+  en: "Contributions are"
+  cs: "Příspěvky jsou"
+intro_contributions_link:
+  en: "welcome"
+  cs: "vítány"
+intro_subscribe_prefix:
+  en: "You can"
+  cs: "Můžete se"
+intro_subscribe_link:
+  en: "subscribe"
+  cs: "přihlásit k odběru"
+intro_subscribe_suffix:
+  en: "so that you do not miss any news."
+  cs: ", abyste nepřišli o žádné novinky."
+section_communities:
+  en: "Communities"
+  cs: "Komunitní skupiny"
+tooltip_communities:
+  en: "Online & offline community groups."
+  cs: "Online a offline komunitní skupiny."
+section_events:
+  en: "Events"
+  cs: "Události"
+tooltip_events:
+  en: "Meetups, conferences, etc."
+  cs: "Meetupy, konference apod."
+section_recordings:
+  en: "Recordings"
+  cs: "Záznamy přednášek"
+tooltip_recordings:
+  en: "Recordings of talks, lessons, meetups, etc."
+  cs: "Záznamy přednášek, lekcí, meetupů apod."
+section_education:
+  en: "Education"
+  cs: "Vzdělávání"
+tooltip_education:
+  en: "University courses, seminars, etc."
+  cs: "Univerzitní kurzy, semináře apod."
+section_trainings:
+  en: "Trainings"
+  cs: "Školení"
+tooltip_trainings:
+  en: "Paid trainings on Rust."
+  cs: "Placená školení v jazyce Rust."
+section_companies:
+  en: "Companies/jobs"
+  cs: "Firmy/práce"
+tooltip_companies:
+  en: "Companies that use Rust in production or have Rust job openings."
+  cs: "Firmy, které používají Rust v produkci nebo nabízí práci v Rustu."
+link_home:
+  en: "Home"
+  cs: "Web"
+footer_created_by:
+  en: "Created by"
+  cs: "Vytvořil"
+footer_domain:
+  en: "Domain <code>rustlang.cz</code> kindly provided by"
+  cs: "Doménu <code>rustlang.cz</code> laskavě poskytl"
