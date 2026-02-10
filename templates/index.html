@@ -1,16 +1,16 @@
 {% extends "base.html" %}
 
-{% macro sectionheader(label, tooltip) %}
+{% macro sectionheader(id, label, tooltip) %}
 <div class="card-title">
-  <div class="accordion" id="accordion-{{ label }}">
+  <div class="accordion" id="accordion-{{ id }}">
     <div class="accordion-item">
       <h5 class="accordion-header">
         <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
-                data-bs-target="#{{ label }}">
+                data-bs-target="#{{ id }}">
           {{ label }}
         </button>
       </h5>
-      <div id="{{ label }}" class="accordion-collapse collapse" data-bs-parent="#accordion-{{ label }}">
+      <div id="{{ id }}" class="accordion-collapse collapse" data-bs-parent="#accordion-{{ id }}">
         <div class="accordion-body">{{ tooltip }}</div>
       </div>
     </div>
@@ -18,11 +18,11 @@
 </div>
 {% endmacro sectionheader %}
 
-{% macro simplelist(label, data, tooltip) %}
+{% macro simplelist(id, label, data, tooltip) %}
 <div class="col-md-4 col-12">
   <div class="card">
     <div class="card-body">
-      {{ self::sectionheader(label=label, tooltip=tooltip) }}
+      {{ self::sectionheader(id=id, label=label, tooltip=tooltip) }}
       <ul class="list-group list-group-flush">
         {% for entry in data %}
         <a href="{{ entry.link }}"
@@ -50,10 +50,12 @@
 
 {% block content %}
 
+{% set t = load_data(path="data/translations.yaml") %}
+
 <div class="fs-4 py-4">
-  This page serves as an index of events, communities, companies, jobs, recordings, etc. related to the Rust language in
-  the Czech Republic. Contributions are <a href="{{ config.extra.github_url }}">welcome</a>!
-  You can <a href="{{ get_url(path='feed.xml') }}">subscribe</a> so that you do not miss any news.
+  {{ t.intro_text[lang] }}
+  {{ t.intro_contributions[lang] }} <a href="{{ config.extra.github_url }}">{{ t.intro_contributions_link[lang] }}</a>!
+  {{ t.intro_subscribe_prefix[lang] }} <a href="{{ get_url(path='feed.xml') }}">{{ t.intro_subscribe_link[lang] }}</a>{{ t.intro_subscribe_suffix[lang] }}
 </div>
 
 {% set communities = load_data(path="data/communities.yaml") %}
@@ -65,12 +67,12 @@
 
 <div class="container px-4">
   <div class="row g-4">
-    {{ self::simplelist(label="Communities", data=communities, tooltip="Online & offline community groups.") }}
-    {{ self::simplelist(label="Events", data=events, tooltip="Meetups, conferences, etc.") }}
+    {{ self::simplelist(id="communities", label=t.section_communities[lang], data=communities, tooltip=t.tooltip_communities[lang]) }}
+    {{ self::simplelist(id="events", label=t.section_events[lang], data=events, tooltip=t.tooltip_events[lang]) }}
     <div class="col-md-4 col-12">
       <div class="card">
         <div class="card-body">
-          {{ self::sectionheader(label="Recordings", tooltip="Recordings of talks, lessons, meetups, etc.") }}
+          {{ self::sectionheader(id="recordings", label=t.section_recordings[lang], tooltip=t.tooltip_recordings[lang]) }}
           <ul class="list-group list-group-flush">
             {% for recording in recordings %}
             <a href="{{ recording.link }}" target="_blank"
@@ -93,18 +95,17 @@
         </div>
       </div>
     </div>
-    {{ self::simplelist(label="Education", data=education, tooltip="University courses, seminars, etc.") }}
-    {{ self::simplelist(label="Trainings", data=trainings, tooltip="Paid trainings on Rust.") }}
+    {{ self::simplelist(id="education", label=t.section_education[lang], data=education, tooltip=t.tooltip_education[lang]) }}
+    {{ self::simplelist(id="trainings", label=t.section_trainings[lang], data=trainings, tooltip=t.tooltip_trainings[lang]) }}
     <div class="col-md-4 col-12">
       <div class="card">
         <div class="card-body">
-          {{ self::sectionheader(label="Companies/jobs", tooltip="Companies that use Rust in production and/or have Rust
-          job openings.") }}
+          {{ self::sectionheader(id="companies", label=t.section_companies[lang], tooltip=t.tooltip_companies[lang]) }}
           <ul class="list-group list-group-flush">
             {% for company in companies %}
             <li class="list-group-item">
                 <div class="card-title">{{ company.name }}</div>
-                <a href="{{ company.link }}" class="card-link" target="_blank">Home</a>
+                <a href="{{ company.link }}" class="card-link" target="_blank">{{ t.link_home[lang] }}</a>
                 {% for entry in company.entries | default(value=[]) %}
                 <a href="{{ entry.link }}" target="_blank" class="card-link">{{ entry.name }}</a>
                 {% endfor %}
