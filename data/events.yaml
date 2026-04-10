@@ -1,3 +1,8 @@
+- name: "5. Rust Moravia Meetup (Ukaž testy!)"
+  link: https://www.meetup.com/rust-moravia/events/314218493
+  date: "2026-05-05T17:30:00+02:00"
+  published: "2026-04-10T20:00:00+02:00"
+  city: Olomouc
 - name: "Prague Rust Meetup (January 2026)"
   link: https://www.meetup.com/rust-prague/events/312895761
   date: "2026-01-28T18:00:00+01:00"
