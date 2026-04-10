@@ -1,4 +1,28 @@
-- name: "Rust Pargue meetup October 2025"
+- name: "MeetUpdate Ostrava - Tipy, jak psát lepší (Rust) testy"
+  speakers:
+    - Jakub Beránek
+  date: "2026-01-29"
+  kind: Talk
+  link: https://www.youtube.com/watch?v=hq3TzJZ8Nks
+- name: "MeetUpdate Ostrava - Výhody Rustu, o kterých se tolik nemluví"
+  speakers:
+    - Marek Pšenka
+  date: "2026-01-29"
+  kind: Talk
+  link: https://www.youtube.com/watch?v=GWrGg1xRWz0
+- name: "MeetUpdate Ostrava - Den v životě Rust Rust programátora"
+  speakers:
+    - Jakub Beránek
+  date: "2025-09-17"
+  kind: Talk
+  link: https://www.youtube.com/watch?v=KzcFgDEh1HM
+- name: "MeetUpdate Ostrava - Co nám může Rust nabídnout?"
+  speakers:
+    - Ada Böhm
+  date: "2025-09-17"
+  kind: Talk
+  link: https://www.youtube.com/watch?v=K5w2eKNS5Yg
+- name: "Rust Prague meetup October 2025"
   speakers:
     - Arto Gahr
     - Lukáš "Chleba" Franěk
