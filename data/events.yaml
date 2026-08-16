@@ -1,3 +1,8 @@
+- name: "Prague Rust Meetup @ RockwellAutomation"
+  link: https://www.meetup.com/rust-prague/events/316070376
+  date: "2026-09-22T17:00:00+02:00"
+  published: "2026-08-16T09:00:00+02:00"
+  city: Prague
 - name: "5. Rust Moravia Meetup (Ukaž testy!)"
   link: https://www.meetup.com/rust-moravia/events/314218493
   date: "2026-05-05T17:30:00+02:00"
